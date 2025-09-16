@@ -1,0 +1,39 @@
+/* Info do App */
+"app_name" = "Agenda TAB";
+
+/* Navegação */
+"back" = "Voltar";
+"delete" = "Excluir";
+"save" = "Salvar";
+"cancel" = "Cancelar";
+"update" = "Atualizar";
+
+/* Calendário */
+"previous_month" = "Mês anterior";
+"next_month" = "Próximo mês";
+"today" = "Hoje";
+"this_week" = "Esta Semana";
+
+/* Humores */
+"mood_happy" = "Feliz";
+"mood_calm" = "Calmo";
+"mood_anxious" = "Ansioso";
+"mood_depressed" = "Triste";
+"mood_colors" = "Cores dos Humores";
+
+/* Edição */
+"edit_entry" = "Editar Entrada";
+"how_are_you_feeling" = "Como você está se sentindo?";
+"select_mood_description" = "Selecione o humor que melhor descreve seu dia";
+"save_entry" = "Salvar Entrada";
+"update_entry" = "Atualizar Entrada";
+
+/* Configurações de Tema */
+"theme_settings" = "Configurações de Tema";
+"dark_theme" = "Tema Escuro";
+"light_theme" = "Tema Claro";
+"system_theme" = "Seguir Sistema";
+
+/* Boas-vindas */
+"welcome_title" = "Bem-vindo ao Agenda TAB";
+"welcome_subtitle" = "Sua jornada de autoconhecimento emocional começa aqui";
