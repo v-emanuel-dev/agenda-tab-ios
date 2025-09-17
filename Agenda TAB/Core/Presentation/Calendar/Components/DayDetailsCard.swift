@@ -19,7 +19,7 @@ struct DayDetailsCard: View {
                     if Calendar.current.isDateInToday(date) {
                         Text("Hoje")
                             .font(.subheadline)
-                            .foregroundColor(.accentColor)
+                            .foregroundColor(.blue)
                             .fontWeight(.medium)
                     }
                 }
@@ -76,7 +76,7 @@ struct DayWithMoodContent: View {
                             .font(.system(size: 40))
                     )
                 
-                Text(entry.mood.localizedName)
+                Text(entry.mood.displayName)
                     .font(.title2)
                     .fontWeight(.bold)
                     .foregroundColor(MoodColors.color(for: entry.mood))

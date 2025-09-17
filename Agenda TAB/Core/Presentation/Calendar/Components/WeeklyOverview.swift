@@ -71,7 +71,7 @@ struct WeekDayCard: View {
                 // Mood and note info
                 VStack(alignment: .leading, spacing: 4) {
                     if let entry = entry {
-                        Text(entry.mood.localizedName)
+                        Text(entry.mood.displayName)
                             .font(.caption)
                             .fontWeight(.medium)
                             .foregroundColor(isToday ? .white : MoodColors.color(for: entry.mood))

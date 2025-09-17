@@ -1,9 +1,7 @@
 import CoreData
 import Foundation
 
-@objc(DailyEntryEntity)
-public class DailyEntryEntity: NSManagedObject {
-    
+extension DailyEntryEntity {
     func toDomainModel() -> DailyEntry? {
         guard let dateValue = date,
               let moodString = mood,

@@ -74,12 +74,12 @@ struct CalendarScreen: View {
         .sheet(isPresented: $showThemeSelector) {
             ThemeSelector()
         }
-        .sheet(isPresented: $showDatePicker) {
-            DatePickerDialog(
-                initialDate: viewModel.currentMonth,
-                onDateSelected: viewModel.onMonthChanged
-            )
-        }
+//        .sheet(isPresented: $showDatePicker) {
+//            DatePickerDialog(
+//                initialDate: viewModel.currentMonth,
+//                onDateSelected: viewModel.onMonthChanged
+//            )
+//        }
     }
     
     private var headerView: some View {

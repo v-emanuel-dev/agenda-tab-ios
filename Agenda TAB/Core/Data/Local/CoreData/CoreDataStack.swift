@@ -1,5 +1,6 @@
 import CoreData
 import Foundation
+import Combine
 
 class CoreDataStack: ObservableObject {
     static let shared = CoreDataStack()

@@ -10,33 +10,9 @@
 		57B3E55D2E73C6F900938A6A /* Agenda TAB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Agenda TAB.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		57B4CF012E750BDF008ED862 /* Exceptions for "Agenda TAB" folder in "Agenda TAB" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Core/Presentation/Calendar/Components/DayCell.swift,
-			);
-			target = 57B3E55C2E73C6F900938A6A /* Agenda TAB */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		57B4CF022E750BDF008ED862 /* Exceptions for "Agenda TAB" folder in "Copy Bundle Resources" phase from "Agenda TAB" target */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			buildPhase = 57B3E55B2E73C6F900938A6A /* Resources */;
-			membershipExceptions = (
-				Core/Presentation/Calendar/Components/DayCell.swift,
-			);
-		};
-/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		57B3E55F2E73C6F900938A6A /* Agenda TAB */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				57B4CF012E750BDF008ED862 /* Exceptions for "Agenda TAB" folder in "Agenda TAB" target */,
-				57B4CF022E750BDF008ED862 /* Exceptions for "Agenda TAB" folder in "Copy Bundle Resources" phase from "Agenda TAB" target */,
-			);
 			path = "Agenda TAB";
 			sourceTree = "<group>";
 		};

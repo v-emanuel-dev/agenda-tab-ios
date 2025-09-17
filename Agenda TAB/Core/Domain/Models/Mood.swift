@@ -15,12 +15,12 @@ enum Mood: String, CaseIterable, Codable {
         }
     }
     
-    var localizedName: String {
+    var displayName: String {
         switch self {
-        case .happy: return NSLocalizedString("mood_happy", comment: "")
-        case .calm: return NSLocalizedString("mood_calm", comment: "")
-        case .anxious: return NSLocalizedString("mood_anxious", comment: "")
-        case .depressed: return NSLocalizedString("mood_depressed", comment: "")
+        case .happy: return "Feliz"
+        case .calm: return "Calmo"
+        case .anxious: return "Ansioso"
+        case .depressed: return "Triste"
         }
     }
 }

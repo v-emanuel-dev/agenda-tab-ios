@@ -10,17 +10,17 @@ struct MoodLegend: View {
             
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 12) {
-                    ForEach(MoodColors.allMoodColors, id: \.0) { mood, color in
+                    ForEach(Mood.allCases, id: \.self) { mood in
                         HStack(spacing: 6) {
                             Circle()
-                                .fill(color)
+                                .fill(MoodColors.color(for: mood))
                                 .frame(width: 24, height: 24)
                                 .overlay(
                                     Text(mood.emoji)
                                         .font(.caption)
                                 )
                             
-                            Text(mood.localizedName)
+                            Text(mood.displayName)
                                 .font(.caption)
                                 .foregroundColor(.primary)
                         }

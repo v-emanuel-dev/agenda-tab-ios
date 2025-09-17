@@ -40,17 +40,17 @@ struct DayCell: View {
         if let entry = entry {
             return MoodColors.color(for: entry.mood)
         } else {
-            return MoodColors.defaultColor
+            return Color.gray.opacity(0.3)
         }
     }
     
     private var textColor: Color {
         if isToday {
-            return Color(red: 139/255, green: 0, blue: 0) // Dark red for today
+            return Color.red
         } else if isCurrentMonth {
-            return .black
+            return Color.black
         } else {
-            return .gray
+            return Color.gray
         }
     }
     

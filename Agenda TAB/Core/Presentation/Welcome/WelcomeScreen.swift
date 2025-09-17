@@ -297,7 +297,7 @@ struct MoodExample: View {
                         .font(.title2)
                 )
             
-            Text(mood.localizedName)
+            Text(mood.displayName)
                 .font(.caption)
                 .foregroundColor(.secondary)
         }
